@@ -16,4 +16,5 @@ printf("%x", x);
 printf("\n");
 
 return (0);
-} 
+
+}
