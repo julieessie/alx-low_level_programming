@@ -17,7 +17,6 @@ for (nbase = 97; nbase <= 102; nbase++)
 {
 putchar(nbase);
 }
- 
 putchar('\n');
 
 return (0);
