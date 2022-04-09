@@ -11,7 +11,7 @@ int ncomb;
 
 for (ncomb = 48; ncomb <= 57; ncomb++)
 {
-putchar(ncomb);
+putchar (ncomb);
 
 if (ncomb == 57)
 {
