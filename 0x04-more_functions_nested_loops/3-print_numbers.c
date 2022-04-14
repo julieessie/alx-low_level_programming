@@ -1,4 +1,5 @@
 #include "main.h"
+#include <putchar.c>
 /**
  * print_numbers - prints numbers
  * Return: Always 0.
