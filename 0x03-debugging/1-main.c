@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - causes am imfimite loop
+ * main - causes am infinite loop
  * Return: 0
  */
 
