@@ -9,8 +9,8 @@ int n;
 n = 0;
 while (n < 10)
 {
-putchar(n + '0');
+_putchar(n + '0');
 n++;
 }
-putchar('\n');
+_putchar('\n');
 } 
