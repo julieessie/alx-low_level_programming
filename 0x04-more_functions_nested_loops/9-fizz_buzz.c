@@ -30,7 +30,7 @@ else
 {
 printf("%x ", x);
 }
-i++;
+x++;
 }
 printf("\n");
 return (0);
