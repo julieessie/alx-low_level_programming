@@ -27,9 +27,11 @@ else
 printf("Buzz");
 }
 else
+{
 printf("%x ", x);
 }
 i++;
 }
 printf("\n");
 return (0);
+}
