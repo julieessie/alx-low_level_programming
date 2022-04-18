@@ -11,7 +11,7 @@ n = 0;
 while (n < 10)
 {
 putchar(n + '0');
-i++;
+n++;
 }
 putchar('\n')
 }
