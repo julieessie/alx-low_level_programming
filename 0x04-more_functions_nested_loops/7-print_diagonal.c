@@ -1,4 +1,4 @@
-p#include "main.h"
+#include "main.h"
 /**
  * print_diagonal -prints diagonal line
  *@n: print int
