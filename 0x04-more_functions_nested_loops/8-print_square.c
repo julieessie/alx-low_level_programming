@@ -20,7 +20,7 @@ for (i = 0; i < size; i++)
 {
 for (y = 0; y < size; y++)
 {
-putchar('#');
+putchar(35);
 }
 putchar('\n');
 }
