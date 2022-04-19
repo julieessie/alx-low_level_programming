@@ -24,11 +24,12 @@ else if (x % 5 == 0)
 if (x < n)
 printf("Buzz ");
 else
+{
 printf("Buzz");
 }
 else
 {
-printf("%x ", x);
+printf("%d", x);
 }
 x++;
 }
