@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+ * main - prime factors of numbers
+ * Return: Always 0
+ */
+int main(void)
+{
+unsigned long n, div, maxfact;
+n = 612852475143;
+maxfact = 1;
+
+for (div = 3; div <= n; div =+ 2)
+{
+while (n % div == 0)
+{
+maxfact = n;
+n = n / div;
+}
+}
+printf("%lu\n", maxfact);
+return (0);
+}
