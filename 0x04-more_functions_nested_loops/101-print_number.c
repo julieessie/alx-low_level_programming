@@ -17,6 +17,6 @@ else
 {
 r = n;
 }
-if (r  / 10 != 0)
+if (r / 10 != 0)
 print_number(r / 10);
-putchar(r % 10) + '0');
+putchar((r % 10) + '0');
