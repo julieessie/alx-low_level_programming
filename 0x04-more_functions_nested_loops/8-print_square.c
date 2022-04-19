@@ -12,8 +12,7 @@ int y;
 
 if (size > 0)
 {
-for (i = 0; i < size; i++)
-for (y = 0; y < size; y++)
+  for (i = 0, y = 0; i < size && y < size; i++, y++)
 {
 putchar(35);
 }
