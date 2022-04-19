@@ -27,6 +27,7 @@ else
 {
 printf("Buzz");
 }
+}
 else
 {
 printf("%i", x);
