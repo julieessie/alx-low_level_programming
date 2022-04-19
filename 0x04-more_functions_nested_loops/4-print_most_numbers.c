@@ -12,8 +12,8 @@ while (i < 10)
 if (i != 2 && i != 4)
 {
 putchar(i + '0');
+i++;
 }
-i++; 
 }
-_putchar('\n');
+putchar('\n');
 }
