@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-unsigned long n, p, maxfact;
+unsigned long n, div, maxfact;
 n = 612852475143;
 maxfact = 1;
 
-for (p = 3; p <= n; p += 2)
+for (div = 2; div <= n; div =+ 2)
 {
-while (n % p == 0)
+while (n % div == 0)
 {
 maxfact = n;
-n = n / p;
+n = n / div;
 }
 }
 printf("%lu\n", maxfact);
