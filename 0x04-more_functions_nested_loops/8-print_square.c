@@ -13,15 +13,11 @@ int y;
 if (size > 0)
 {
 for (i = 0; i < size; i++)
-{
-
 for (y = 0; y < size; y++)
 {
 putchar(35);
 }
 putchar('\n');
-}
-
 }
 
 else
