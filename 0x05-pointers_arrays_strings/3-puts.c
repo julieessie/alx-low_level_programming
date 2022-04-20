@@ -11,7 +11,7 @@ int v;
 
 c = str;
 
-for (v = 0; c[v] v++)
+ for (v = 0; c[v]; v++)
 {
 _putchar(c[v]);
 }
