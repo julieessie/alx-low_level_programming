@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
+int main(void)
+{
+int n = 100;
+int x;
+
+x = 1;
+while (x <= n)
+{
+if ( x % 3 == 0 && x % 5 == 0)
+{
+printf("FizzBuzz ");
+}
+else if (x % 3 == 0)
+{
+printf("Fizz ");
+}
+else if (x % 5 == 0)
+{
+if (x < n)
+printf("Buzz ");
+else
+{
+printf("Buzz");
+}
+}
+else
+{
+printf("%i", x);
+}
+x++;
+}
+printf("\n");
+return (0);
+}
