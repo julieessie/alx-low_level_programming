@@ -19,8 +19,8 @@ length++;
 }
 count = length;
 
-*begin_c = s;
-*end_c = s;
+begin_c = s;
+end_c = s;
 
 for (r = 0; r < count - 1; r++)
 {
