@@ -4,7 +4,7 @@
  * @str: pointer to an int where changes are being made
  * Return: void
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 int ch;
 
