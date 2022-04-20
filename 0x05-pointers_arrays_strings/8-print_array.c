@@ -19,6 +19,5 @@ printf(", ");
 }
 e++;
 }
-printf("\n")
+printf("\n");
 }
-  
