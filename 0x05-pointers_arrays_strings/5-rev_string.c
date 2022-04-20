@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
   
-char *beginc, *endc, c;
+char *begin_c, *end_c, c;
 
 int r;
 int count;
@@ -19,21 +19,21 @@ length++;
 }
 count = length;
 
-*beginc = s;
-*endc = s;
+*begin_c = s;
+*end_c = s;
 
 for (r = 0; r < count - 1; r++)
 {
-endc++;
+end_c++;
 }
 
 for (r = 0; r < count / 2; r++)
 {
-c = *endc;
-*endc = *startc;
-*startc = c;
+c = *end_c;
+*end_c = *begin_c;
+*begin_c = c;
 
-startc++;
-endc--;
+begin_c++;
+end_c--;
 }
 }
