@@ -11,7 +11,6 @@ int ch;
 for (ch = 0; str[ch] != '\0'; ch++)
 {
 if (ch % 2 == 0)
-	
 _putchar(str[ch]);
 }
 _putchar('\n');
