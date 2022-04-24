@@ -4,7 +4,7 @@
  * @s: string
  * Return: s
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int k = 0;
 int = i;
