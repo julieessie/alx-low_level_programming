@@ -2,7 +2,7 @@
 /**
  * cap_string - capitalizes all words of a string
  * @s: string
- * Return: s
+ * Return: char s
  */
 char *cap_string(char *s)
 {
@@ -19,7 +19,7 @@ for (i = 0; i < 13; i++)
 if (*(s + k) == separators[i])
 {
 if ((*(s + (k + 1)) >= 97) && (*(s + (k + 1)) <= 122))
-  *(s + (k + 1)) = *(s + (k + 1)) - 32;
+*(s + (k + 1)) = *(s + (k + 1)) - 32;
 break;
 }
 }
