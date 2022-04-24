@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcmp -  compares two strings
+ * _strcmp - compares two strings
  * @s1: a pointer to a character that will be modified
  * @s2: a pointer to a character that will be modified
- * Return: 0
+ * Return: dest
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -16,3 +16,4 @@ str_b++;
 str_c++;
 }
 return (*str_b - *str_c);
+}
