@@ -4,7 +4,7 @@
  * @s: string
  * Return: pointer
  */
-char *rot13(char *)
+char *rot13(char *s)
 {
 int count = 0;
 int i;
