@@ -18,7 +18,7 @@ for (i = 0; i < 52; i++)
 	
 {
 	  
-  if (*(s + count) == Alphabet[i])
+if (*(s + count) == Alphabet[i])
 	      
 {
 	      
