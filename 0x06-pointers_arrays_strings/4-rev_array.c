@@ -3,7 +3,7 @@
  * reverse_array - reverses content of array of integers
  * @a: array of integer
  * @n: number of elements of array
- * Return: Always 0
+ * Return: void
  */
 void reverse_array(int *a, int n)
 {
@@ -14,4 +14,5 @@ j = a[i];
 a[i] = a[n - i - 1];
 a[n - i -1] = j;
 }
+return (j);
 }
