@@ -2,12 +2,11 @@
 /**
  * rot13 - encodes a string using rot13
  * @s: string
- * Return: pointer to dest
+ * Return: s
  */
 char *rot13(char *s)
 {
-int count = 0;
-int i;
+  int count = 0, i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char *rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
