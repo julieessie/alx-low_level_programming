@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - encodes a string into 1337
+ * leet - encodes a string
  * @s: input string
  * Return: s 
  */
