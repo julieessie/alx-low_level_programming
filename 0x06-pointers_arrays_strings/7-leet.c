@@ -6,8 +6,7 @@
  */
 char *leet(char *s)
 {
-int k = 0;
-int i;
+int k = 0, i;
 int lowercase[] = {97, 101, 111, 116, 108};
 int uppercase[] = {65, 69, 79, 84, 76};
 int numbers[] = {52, 51, 48, 55, 49};
