@@ -12,22 +12,18 @@ for (left_num = 48; right_num <= 78; left_num++)
 {
 for (right_num = left_num + 1; right_num <= 78; right_num++)
 {
-
-putchar(left_num);
-putchar(right_num);
+_putchar(left_num);
+_putchar(right_num);
 
 if ((left_num == 56) && (right_num == 78))
 {
 break;
 }
 
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
-
-putchar('\n');
-
+_putchar('\n');
 return (0);
-
 }
