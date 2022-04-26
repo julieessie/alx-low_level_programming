@@ -5,18 +5,19 @@
  */
 int main(void)
 {
-int first_numbers;
-int second_numbers;
-for (first_numbers = 0; first_numbers < 100; first_numbers++)
+int first_nums;
+int second_nums;
+for (first_nums = 0; first_nums < 100 ; first_nums++)
 {
-for (second_numbers = first_numbers + 1; second_numbers < 100; second_numbers++)
+for (second_nums = first_nums + 1 ; second_nums < 100; second_nums++)
 {
-putchar(first_numbers / 10 + '0');
-putchar(first_numbers % 10 + '0');
+putchar(first_nums / 10 + '0');
+putchar(first_nums % 10 + '0');
 
 putchar(' ');
-putchar(second_numbers % 10 + '0');
-if (first_numbers == 98 && second_numbers == 99)
+putchar(second_nums / 10 + '0');
+putchar(second_nums % 10 + '0');
+if (first_nums == 98 && second_nums == 99)
 {
 break;
 }
