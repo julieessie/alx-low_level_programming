@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * leet - encodes a string into 1337
- * @s: input string
- * Return: s 
-*/
+ * leet -encodes a string into 1337
+ * @s: iinput string
+ * Return: s
+ */
 char *leet(char *s)
 {
 int k = 0, i;
@@ -15,7 +15,7 @@ while (*(s + k) != '\0')
 {
 for (i = 0; i < 5; i++)
 {
-if (*(s + k) == lowercase[i] && *(s + k) == uppercase[i])
+if (*(s + k) == lowercase[i] || *(s + k) == uppercase[i])
 {
 *(s + k) = numbers[i];
 break;
