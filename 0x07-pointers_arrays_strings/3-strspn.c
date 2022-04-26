@@ -9,9 +9,8 @@ unsigned int _strspn(char *s, char *accept)
 {
 unsigned int l = 0, j, k = 0;
 while (accept[l])
-{
 j = 0;
-while (s[j] != 32)
+if (s[j] != 32)
 {
 if (accept[l] == s[j])
 {
