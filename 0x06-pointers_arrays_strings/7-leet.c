@@ -15,7 +15,7 @@ while (*(s + k) != '\0')
 {
 for (i = 0; i < 5; i++)
 {
-if (*(s + k) == lowercase[i] || *(s + k) == uppercase[i])
+if (*(s + k) == lowercase[i] && *(s + k) == uppercase[i])
 {
 *(s + k) = numbers[i];
 break;
