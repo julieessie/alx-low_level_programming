@@ -1,1 +1,1 @@
-export $CFILE
+export CFILE = main.c
