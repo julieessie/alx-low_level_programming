@@ -22,7 +22,7 @@ if (first_nums == 98 && second_nums == 99)
 break;
 }
 putchar(',');
-putchar(',');
+putchar(' ');
 
 }
 }
