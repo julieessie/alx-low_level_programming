@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strpbrk - matches any character specified
- * @s: string 
- * @accept: character in one str matches another string's
- * Return: s matches character specified in accept
+ * @s: string
+ * @accept -character matches from one string to another
+ * Return: s matches character specified
  */
 char *_strpbrk(char *s, char *accept)
 {
