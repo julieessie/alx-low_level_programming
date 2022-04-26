@@ -10,7 +10,7 @@ int right_num;
 
 for (left_num = 48; right_num <= 78; left_num++)
 {
-for (right_num = left_num + 1 ; right_num <= 78; right_num++)
+for (right_num = left_num + 1; right_num <= 78; right_num++)
 {
 
 putchar(left_num);
