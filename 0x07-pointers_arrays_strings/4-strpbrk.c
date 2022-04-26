@@ -5,7 +5,7 @@
  * @accept: character in one str matches another string's
  * Return: s matches character specified in accept
  */
-char *_strpbk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 int k;
 while (*s != '\0')
