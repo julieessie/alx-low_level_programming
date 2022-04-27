@@ -19,10 +19,8 @@ if ((left_num == 56) && (right_num == 78))
 
 break;
 }
-
 putchar(',');
 putchar(' ');
-
 }
 putchar('\n');
 return (0);
