@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strpbrk - searches a string for any of a set of bytes
+ * _strpbrk - searches a string
  * @s: string
  * @accept: characters accepted
- * Return: string accepted characters
+ * Return: string accepted
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -23,4 +23,4 @@ j++;
 k++;
 }
 return (0);
-}      
+}
