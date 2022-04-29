@@ -11,7 +11,7 @@ if (r == n - 1)
 {
 return (1);
 }
-else if n % r == 0)
+else if (n % r == 0)
 {
 return (0);
 }
