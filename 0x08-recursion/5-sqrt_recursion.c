@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _result - result of function sqrt
- * @k: integer
- * @j: integer
+ * @i: integer
+ * @n: integer
  * Return: result of sqrt
  */
 int _result(int i, int n)
