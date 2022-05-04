@@ -6,7 +6,8 @@
  * @argv: argument char
  * Return: 0 if true 1 if false
  */
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
 int k, j;
 if (argc == 3)
 {
