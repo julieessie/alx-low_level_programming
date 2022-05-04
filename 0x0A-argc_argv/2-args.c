@@ -12,7 +12,7 @@ if (argc > 0)
 
 for (all = 0; all < argc; all++)
 {
-printf("%s\n", argv[all];
+  printf("%s\n", argv[all]);
 }
 return (0);
 }
