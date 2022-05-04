@@ -13,8 +13,8 @@ if (argc == 3)
 {
 k = atoi(argv[1]);
 j = atoi(argv[2]);
-printf("%d\n", k *j);   
-return (0);
+printf("%d\n", k *j);
+return (0)
 }
 printf("Error\n");
 return (1);
