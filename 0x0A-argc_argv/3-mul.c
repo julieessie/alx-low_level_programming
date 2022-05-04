@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - multiplies two numbers
- * @rgc: count argument
+ * @argc: count argument
  * @argv: argument char
  * Return: 0 if true 1 if false
  */
