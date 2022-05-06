@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * create_array - array
  * @size: size of an array
@@ -21,6 +22,7 @@ if (p == 0)
 {
 return (NULL);
 }
+
 else
 index = 0;
 while (index < size)
