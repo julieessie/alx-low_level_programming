@@ -30,6 +30,6 @@ while (index < size)
 {
 *(p + index) = c;
 index++;
-} 
+}
 return (p);
 }
