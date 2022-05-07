@@ -21,7 +21,7 @@ G = malloc(sizeof(int *) * height);
 
 if (G == NULL)
 {
-return (NULL)
+return (NULL);
 }
 
 for (k = 0; k < height; k++)
