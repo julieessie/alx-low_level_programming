@@ -18,7 +18,7 @@ if (width + height < 2 || width < 1 || height < 1)
 return (NULL);
 }
 
-G = malloc(height * sizeof(*grid));
+G = malloc(height * sizeof(*G));
 
 if (G == NULL)
 {
@@ -27,7 +27,7 @@ return (NULL);
 
 for (k = 0; k < height; k++)
 {
-G[k] = malloc(width * sizeof(**grid));
+G[k] = malloc(width * sizeof(**G));
 if (G[k] == NULL)
 {
 for (k = k - 1; k >= 0; k--)
