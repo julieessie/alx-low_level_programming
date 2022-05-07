@@ -4,7 +4,7 @@
 
 /**
  * _strdup - returns a pointer using malloc
- * @str: string 
+ * @str: string
  * Return: a pointer
  */
 char *_strdup(char *str)
@@ -16,12 +16,13 @@ if (str == NULL)
 return (NULL);
 
 for (i = 0; str[i] != '\0'; i++)
+a[i] = str[i];
 
 a = malloc(i * sizeof(*a) + 1);
 if (a == NULL)
 
 return (NULL);
- 
+
 for (j = 0; j < i; j++)
 a[j] = str[j];
 a[j] = '\0';
