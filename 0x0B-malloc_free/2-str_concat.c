@@ -4,7 +4,7 @@
 
 /**
  * str_concat - Concatenates two strings
- * @s1: The string to be concatenated upon
+ * @s1: The string to be concatenated
  * @s2: The string to be concatenated to s1
  * Return: Null on failure otherwise pointer
  */
@@ -34,4 +34,4 @@ for (i = 0; s2[i]; i++)
 str[j++] = s2[i];
 
 return (str);
-} 
+}
