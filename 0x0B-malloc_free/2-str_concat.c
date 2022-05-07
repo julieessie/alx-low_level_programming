@@ -27,10 +27,10 @@ str = malloc(sizeof(char) * k);
 if (str == NULL)
 return (NULL);
 
-for (i = 0; s1[i]; i++)
+for (i = 0; s1[i] != '\0'; i++)
 str[j++] = s1[i];
 
-for (i = 0; s2[i]; i++)
+for (j = 0; s2[j] != '\0'; j++)
 str[j++] = s2[i];
 
 return (str);
