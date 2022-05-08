@@ -23,7 +23,7 @@ printf("Error\n");
 return (1);
 }
 }
-sum = strtol(argv[i]);
+sum += atoi(argv[i]);
 }
 if (argc <= 1)
 {
