@@ -16,7 +16,7 @@ sum = 0;
 if (argc > 1)
 {
 for (i = 1; argv[i]; i++)
-{    
+{
 n = strtol(argv[i], &p, 10);
 if (!*p)
 sum += n;
