@@ -6,30 +6,27 @@
  * @argv: argument vector, array
  * Return: 1 if error 0 if correct
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-int i, k;
-int sum;
+int sum, i;
+char *p;
+int n;
 
 sum = 0;
-
-for (i = 1; i < argc; i++)
+if (argc > 1)
 {
-for (k = 0; argv[i]k]; k++)
-{
-if (argv[i][k] < 48 || argv[i][k] > 57)
+for (i = 1; argv[i]; i++)
+{    
+n = strtol(argv[i], &p, 10);
+if (!*p)
+sum += n;
+else
 {
 printf("Error\n");
 return (1);
 }
 }
-sum += atoi(argv[i]);
 }
-if (argc <= 1)
-{
-printf("0\n");
-}  
-else
-printf("%d\n", sum);
+printf("%d\n", total);
 return (0);
 }
