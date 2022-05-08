@@ -6,7 +6,7 @@
  * @argv: argument vector, array
  * Return: 1 if error 0 if correct
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 int i, k;
 int sum;
