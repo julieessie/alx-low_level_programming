@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * string_nconcat - concatenates two strings
  * @s1: string
@@ -18,12 +19,12 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-while s1[sizes1] != '\0')
+while (s1[sizes1] != '\0')
 {
 sizes1++;
 }
 
-while s2[sizes2] != '\0')
+while (s2[sizes2] != '\0')
 {
 sizes2++;
 }
