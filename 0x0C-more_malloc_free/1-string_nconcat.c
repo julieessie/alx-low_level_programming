@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * string_nconcat - concatenates two strings
- * @s1: string character 1
- * @s2: string character 2
+ * @s1: string
+ * @s2: string two
  * @n: base index
  * Return: a pointer
  */
@@ -33,7 +33,7 @@ n = sizes2;
 
 l = s1 + n;
 
-p = malloc((l + 1);
+p = malloc(l + 1);
 
 if (p == NULL)
 return (NULL);
