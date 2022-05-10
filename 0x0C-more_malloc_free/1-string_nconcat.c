@@ -22,7 +22,7 @@ s2 = "";
 for (i = 0; s1[i]; i++)
 l++;
 
-p = malloc(sizeof(char)* (l + 1));
+p = malloc(sizeof(char) * (l + 1));
 
 
 if (p == NULL)
