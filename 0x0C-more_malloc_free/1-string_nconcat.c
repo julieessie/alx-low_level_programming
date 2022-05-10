@@ -9,10 +9,8 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-
 char *p;
 unsigned int l = n, i;
-
 if (s1 == NULL)
 s1 = "";
 
@@ -24,10 +22,8 @@ l++;
 
 p = malloc(sizeof(char) * (l + 1));
 
-
 if (p == NULL)
 return (NULL);
-
 l = 0;
 
 for (i = 0; s1[i]; i++)
@@ -39,3 +35,4 @@ p[l++] = s2[i];
 p[l] = '\0';
 
 return (p);
+}
