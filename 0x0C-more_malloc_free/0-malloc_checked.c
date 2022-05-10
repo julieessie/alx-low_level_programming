@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * malloc_checked - allocates memory using malloc
  * @b: argument which is an integer
@@ -9,10 +8,10 @@ void *malloc_checked(unsigned int b)
 {
 void *ptr;
 
-ptr = malloc(b);
-if (ptr == NULL)
+s = malloc(b);
+if (s == NULL)
 { 
 exit(98);
 }
-return (ptr);
+return (s);
 } 
