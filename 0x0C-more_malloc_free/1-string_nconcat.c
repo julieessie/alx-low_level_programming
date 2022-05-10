@@ -14,10 +14,10 @@ char *p;
 unsigned int sizes1 = 0, sizes2 = 0, l, i;
 
 if (s1 == NULL)
-s1 = " ";
+s1 = "";
 
 if (s2 == NULL)
-s2 = " ";
+s2 = "";
 
 while s1[sizes1] != '\0')
 {
@@ -33,7 +33,7 @@ n = sizes2;
 
 l = s1 + n;
 
-p = malloc((l + 1) * sizeof(char));
+p = malloc((l + 1);
 
 if (p == NULL)
 return (NULL);
