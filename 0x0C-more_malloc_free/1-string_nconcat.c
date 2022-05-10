@@ -43,9 +43,8 @@ p[i] = s1[i];
 for (i = 0; i < (sizes1 + n); i++)
 {
 p[i] = s2[i - sizes1];
-}
 
 p[i] = '\0';
-
+}
 return (p);
 }
