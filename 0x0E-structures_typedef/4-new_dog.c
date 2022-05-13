@@ -11,6 +11,7 @@ int i, l;
 char *p;
 
 if (src == NULL)
+{
 return (NULL);
 }
 
@@ -20,7 +21,7 @@ p = malloc(sizeof(char) * (l + 1));
 
 if (p == Null)
 {
-return(NULL);
+return (NULL);
 }
 
 for (i = 0; src[i] != '\0'; i++)
@@ -43,7 +44,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 dog_t *aB;
 char *n_name, *n_owner;
 
-if (name == NULL && owner == NULL)
+if (name == NULL || owner == NULL)
 {
 return (NULL);
 }
@@ -57,6 +58,7 @@ n_name = strdup(name);
 if (n_name == NULL)
 {
 free(aB);
+return (NULL);
 }
 (*aB).name = n_name;
 
