@@ -5,17 +5,17 @@
  * @src: char pointer
  * Return: pointer
  */
-char *_strdup(char *src)
+char *_strdup(char *s)
 {
 int i, l;
 char *p;
 
-if (src == NULL)
+if (s == NULL)
 {
 return (NULL);
 }
 
-for (l = 0; src[l] != '\0'; l++);
+for (l = 0; s[l] != '\0'; l++);
 
 p = malloc(sizeof(char) * (l + 1));
 
@@ -24,11 +24,11 @@ if (p == Null)
 return (NULL);
 }
 
-for (i = 0; src[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-p[i] = src[i]
-p[i] = '\0';
+p[i] = s[i];  
 }
+p[i] = '\0';
 return (p);
 }
 
@@ -48,7 +48,7 @@ if (name == NULL || owner == NULL)
 {
 return (NULL);
 }
-a = malloc(sizeof(dog_t));
+aB = malloc(sizeof(dog_t));
 if (aB == NULL)
 {
 return (NULL);
