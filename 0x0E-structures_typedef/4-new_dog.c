@@ -1,27 +1,35 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 /**
- * _strdp - duplicates string
- * @str: duplicated string
+ * _strdup - duplicates string
+ * @src: char pointer
  * Return: pointer
  */
-char *_strdup(char *str)
+char *_strdup(char *src)
 {
-int l = 0;
+int i, l;
 char *p;
 
-if (str == NULL)
-return (NULL)
-while (*str++)
-l++;
-p = malloc(sizeof(char) * (l + 1));
-if (!p)
+if (src == NULL)
 return (NULL);
-for (l++; l--;)
-p[l] = *--str;
-return (P);
 }
 
+for (l = 0; src[l] != '\0'; l++);
+
+p = malloc(sizeof(char) * (l + 1));
+
+if (p == Null)
+{
+return(NULL);
+}
+
+for (i = 0; src[i] != '\0'; i++)
+{
+p[i] = src[i]
+p[i] = '\0';
+}
+return (p);
+}
 
 /**
  * new_dog - creates a new dog 
@@ -32,14 +40,36 @@ return (P);
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-if (!d)
+dog_t *aB;
+char *n_name, *n_owner;
+
+if (name == NULL && owner == NULL)
+{
 return (NULL);
-d->name = _strdup(name);
-if (name && !d->name)
-return (free(d), NULL);
-d->owner = _strdup(owner);
-if (owner && !d->owner)
-return (free(d->name), free(d), NULL);
-d->age = age;
-return (d);
+}
+a = malloc(sizeof(dog_t));
+if (aB == NULL)
+{
+return (NULL);
+}
+
+n_name = strdup(name);
+if (n_name == NULL)
+{
+free(aB);
+}
+(*aB).name = n_name;
+
+(*aB).age = age;
+
+n_owner = _strdup(owner);
+if (n_owner == NULL)
+{
+free((*aB).name);
+free(aB);
+return (NULL);
+}
+(*aB).owner = n_owner;
+
+return (aB);
 }
