@@ -2,7 +2,7 @@
 #include "dog.h"
 /**
  * _strdup - duplicates string
- * @s: char pointer
+ * @s: string pointer
  * Return: pointer
  */
 char *_strdup(char *s)
@@ -15,7 +15,7 @@ if (s == NULL)
 return (NULL);
 }
 
-for (l = 0; s[l] != '\0'; l++)
+for (l = 0; s[l] != '\0'; l++);
  
 p = malloc(sizeof(char) * (l + 1));
 if (p == NULL)
