@@ -1,5 +1,5 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 /**
  * _strdup - duplicates string
  * @s: char pointer
@@ -19,7 +19,7 @@ for (l = 0; s[l] != '\0'; l++);
 
 p = malloc(sizeof(char) * (l + 1));
 
-if (p == Null)
+if (p == NULL)
 {
 return (NULL);
 }
@@ -54,7 +54,7 @@ if (aB == NULL)
 return (NULL);
 }
 
-n_name = strdup(name);
+n_name = _strdup(name);
 if (n_name == NULL)
 {
 free(aB);
