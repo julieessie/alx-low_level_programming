@@ -15,8 +15,8 @@ if (s == NULL)
 return (NULL);
 }
 
-for (l = 0; s[l] != '\0'; l++);
-
+for (l = 0; s[l] != '\0'; l++)
+ 
 p = malloc(sizeof(char) * (l + 1));
 if (p == NULL)
 {
