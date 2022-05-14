@@ -18,15 +18,13 @@ return (NULL);
 for (l = 0; s[l] != '\0'; l++);
 
 p = malloc(sizeof(char) * (l + 1));
-
 if (p == NULL)
 {
 return (NULL);
 }
-
 for (i = 0; s[i] != '\0'; i++)
 {
-p[i] = s[i];  
+p[i] = s[i];
 }
 p[i] = '\0';
 return (p);
@@ -65,6 +63,7 @@ return (NULL);
 (*aB).age = age;
 
 n_owner = _strdup(owner);
+
 if (n_owner == NULL)
 {
 free((*aB).name);
