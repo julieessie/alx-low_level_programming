@@ -15,7 +15,7 @@ va_start(l, n);
 
 for (i = 0; i < n; i++)
 {
-str_p = va_arg(l, char *)
+str_p = va_arg(l, char *);
 
 if (str_p == NULL)
 {
@@ -24,12 +24,11 @@ printf("(nil)");
 else
 {
 printf("%s", str_p);
-}
 
 if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
-
+}
 va_end(l);
 printf("\n");
 }
