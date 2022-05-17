@@ -16,8 +16,8 @@ if (n == 0)
 return (0);
 
 for (i = 0; i < n; i++)
-{
-sum += va_arg(list, int);
+
+sum += va_arg(list, unsigned int);
 
 va_end(list);
 
