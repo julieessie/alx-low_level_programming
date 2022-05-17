@@ -34,7 +34,7 @@ if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
 printf("Error\n");
 exit(100);
 }
-result = func(arg1, arg2);
+result = func(num1, num2);
 
 printf("%d\n", result);
 
