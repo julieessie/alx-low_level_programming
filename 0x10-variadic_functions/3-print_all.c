@@ -17,15 +17,11 @@ while (format[i])
 switch (format[i])
 {
 case 'c':
-
 printf("%c", (char) va_arg(l, int));
 break;
-
 case 'i':
-
 printf("%d", va_arg(l, int));
 break;
-
 case 'f':
 printf("%f", (float) va_arg(l, double));
 break;
