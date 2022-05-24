@@ -4,11 +4,11 @@
  * @h: head of linked list
  * Return: number of elements in the list
  */
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
-int num_elements = 0;
+unsigned int num_elements = 0;
 
-while (h)
+while (h != NULL)
 {
 
 h = h->next;
