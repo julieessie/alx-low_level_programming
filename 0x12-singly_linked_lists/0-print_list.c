@@ -12,9 +12,9 @@ int num_nodes = 0;
 while (h)
 {
 
-if (!h->str == NULL)
+if (h->str == NULL)
 
-printf("(nil)\n");
+printf("[0] (nil)\n");
 
 else
 
