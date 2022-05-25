@@ -24,14 +24,17 @@ new_node->len = len;
 
 if (*head == NULL)
 {
+new_node->next = *head;
 *head = new_node;
-return (new_node);
 }
+else
+{
+new_node->next = NULL;
+last = *new_node;
 
 while (last->next)
 last = last->next;
-
 last->next = new_node;
-
+}
 return (new_node);
 }
