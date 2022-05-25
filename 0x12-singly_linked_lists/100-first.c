@@ -1,4 +1,5 @@
 #include <stdio.h>
+void prints_first(void)  __attribute__ ((constructor));
 /**
  * prints_first - prints a sentence before the main
  * return: void
