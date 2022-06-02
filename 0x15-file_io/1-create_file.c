@@ -14,9 +14,8 @@ return (-1);
 
 if (text_content != NULL)
 
-for (j = 0; text_content[j];)
-j++;
-
+for (j = 0; text_content[j]; j++)
+;
 f_o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 f_w = write(f_o, text_content, j);
 
