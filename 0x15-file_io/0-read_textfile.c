@@ -14,13 +14,12 @@ if (filename == NULL)
 return (0);
 
 temp = malloc(sizeof(char) * letters);
-
+if (f_o == -1)
+return (0);
+  
 f_o = open(filename, o_RDONLY);
 f_r = read(f_o, temp, letters);
 f_w = write(STDOUT_FILENO, temp, f_r);
-
-if (f_o == -1)
-return (0);
 
 free(temp)
 close(f_o);
