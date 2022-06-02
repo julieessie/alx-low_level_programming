@@ -21,11 +21,10 @@ f_O = open(filename, o_RDONLY);
 f_R = read(f_O, temp, letters);
 f_W = write(STDOUT_FILENO, temp, f_R);
 
-if (f_O == -1 || f_R == -1 || f_W == -1)
-
-free(temp)
+if (f_O == -1)
 return (0);
 
+free(temp)
 close(f_O);
 
 return (f_W);
