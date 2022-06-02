@@ -7,7 +7,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-int f_o, f_w, j;
+int o, w, j;
 
 if (filename == NULL)
 return (-1);
@@ -18,12 +18,13 @@ for (j = 0; text_content[j];)
 j++;
 }
 
-f_o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-f_w = write(f_o, text_content, j);
+o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+w = write(o, text_content, j);
 
-if (f_o == -1 || f_w == -1)
+if (o == -1 || w == -1)
 return (-1);
 
-close(f_o);
+close(o);
+
 return (1);
 }
