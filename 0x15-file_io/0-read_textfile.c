@@ -24,3 +24,4 @@ w = write(STDOUT_FILENO, temp, r);
 free(temp);
 close(o);
 return (w);
+}
